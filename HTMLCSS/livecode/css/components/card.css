@@ -1,0 +1,46 @@
+.card-img {
+  height: 120px;
+  background-size: cover;
+}
+
+.card-container{
+  width: 300px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.list-inline{
+  text-align: end;
+}
+
+.card-white{
+  background-color: white;
+  padding: 8px;
+  color:gray;
+}
+
+.card-white:hover .btn{
+  opacity: 1;
+}
+
+.btn{
+  background-color: white;
+  color: grey;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 8px;
+  display: inline-block;
+  opacity: 0;
+  transition: 0.6ms;
+}
+
+.btn:hover{
+  color: black;
+}
+
+.card-user img {
+  border-radius: 50%;
+  width: 50px;
+}
