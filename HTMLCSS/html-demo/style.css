@@ -1,0 +1,60 @@
+/* TODO: design your profile with CSS */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(235, 235, 235);
+  color: rgb(10, 10, 10);
+}
+
+h1, h2, h3 {
+  font-family: 'Courier Prime', monospace;
+  color: rgb(66, 143, 66);
+}
+
+/* class selectors */
+
+.card {
+  width: 800px;
+  margin: 32px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+
+.btn-blue {
+  background-color: rgb(71, 71, 229);
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(47, 47, 152);
+}
+
+.social{
+  display: inline-block;
+  font-size: 48px;
+  
+} 
+
+.social a {
+  color:rgb(200, 200, 200);
+}
+
+.social a:hover {
+  color:rgb(12, 12, 12);
+}
+
+/* id selectors */
+
+#list-inline {
+  padding: 0;
+}
+
+
+#img-circle {
+  border-radius: 50%;
+}
