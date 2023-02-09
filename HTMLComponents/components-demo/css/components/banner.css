@@ -1,0 +1,10 @@
+.banner {
+  padding: 150px 0;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1 {
+  margin: 0;
+}
